@@ -1,9 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Characters/Cyclop_Soldier/CyclopsToeCollision.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Characters/Cyclop_Soldier/MovingCyclops.cs">
     <Files>
-      <File FileName="Assets/Characters/Cyclop_Soldier/CyclopsToeCollision.cs" Line="1" Column="1" />
-      <File FileName="Assets/Characters/Cyclop_Soldier/MovingCyclops.cs" Line="27" Column="1" />
+      <File FileName="Assets/Characters/Cyclop_Soldier/MovingCyclops.cs" Line="9" Column="2" />
+      <File FileName="Assets/Characters/Cyclop_Soldier/CyclopsCollision.cs" Line="13" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
