@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Characters\Cyclop_Soldier\CyclopsCollision.cs" />
-     <Compile Include="Assets\Characters\Cyclop_Soldier\MovingCyclops.cs" />
      <Compile Include="Assets\OutPost\Image Effects (Pro Only)\BlurEffect.cs" />
      <Compile Include="Assets\OutPost\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
      <Compile Include="Assets\OutPost\Image Effects (Pro Only)\ContrastStretchEffect.cs" />

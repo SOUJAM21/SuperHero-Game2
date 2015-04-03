@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿ using UnityEngine;
 using System.Collections;
 
 public class MovingCyclops : MonoBehaviour {
@@ -6,14 +6,16 @@ public class MovingCyclops : MonoBehaviour {
 	public GameObject[] PatrolPoints;
 	int currentPatrol;
 	public int Speed;
+	public bool isInCage;
 
 
 	// Update is called once per frame
 	void Update () {
 		//print ("patrol points length:" + PatrolPoints.Length);
 		//print ("currentPatrol" + currentPatrol);
-		transform.position = Vector3.MoveTowards (transform.position, PatrolPoints [currentPatrol].transform.position, Speed * Time.deltaTime);
-		
+		if (isInCage == false) {
+			transform.position = Vector3.MoveTowards (transform.position, PatrolPoints [currentPatrol].transform.position, Speed * Time.deltaTime);
+		}
 	}
 	
 	public void CheckAndMove(GameObject collisionObject)
